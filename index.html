@@ -3,21 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Full-stack developer portfolio">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <meta name="description" content="Arpit Kumar - Computer Science student and Full-Stack Developer portfolio">
+  <title>Arpit Kumar | Full-Stack Developer</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#home">Portfolio<span>.</span></a>
+      <a class="brand" href="#home">Arpit<span>.</span></a>
       <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
       <div class="nav-links" id="navLinks">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
       </div>
     </nav>
   </header>
@@ -27,80 +23,44 @@
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">FULL-STACK DEVELOPER</p>
-          <h1 id="heroName">Loading...</h1>
-          <h2 id="heroRole"></h2>
-          <p id="heroBio" class="hero-copy"></p>
-          <div class="actions">
-            <a class="btn primary" href="#projects">View Projects</a>
-            <a class="btn secondary" href="#contact">Contact Me</a>
-          </div>
+          <h1 id="heroName">Arpit Kumar</h1>
+          <h2 id="heroRole">B.Tech CSE Student · Full-Stack Developer</h2>
+          <p id="heroBio" class="hero-copy">I build responsive web applications and practical software projects using modern frontend and backend technologies.</p>
+          <div class="actions"><a class="btn primary" href="#projects">View Projects</a><a class="btn secondary" href="#contact">Contact Me</a></div>
         </div>
-        <div class="hero-card">
-          <div class="avatar" id="avatar">YN</div>
-          <p>Building useful products with clean code and modern web technologies.</p>
-        </div>
+        <div class="hero-card"><div class="avatar">AK</div><p>Building useful products with clean code, modern web technologies and a problem-solving mindset.</p></div>
       </div>
     </section>
 
-    <section id="about" class="section alt">
-      <div class="container narrow">
-        <p class="eyebrow">ABOUT ME</p>
-        <h2>Developer focused on real-world web applications.</h2>
-        <p id="aboutText"></p>
-        <div class="meta">
-          <span id="location"></span>
-          <a id="emailLink"></a>
-        </div>
-      </div>
-    </section>
+    <section id="about" class="section alt"><div class="container narrow">
+      <p class="eyebrow">ABOUT ME</p><h2>Computer Science student focused on real-world web applications.</h2>
+      <p id="aboutText">I am a Computer Science Engineering student graduating in 2027, interested in full-stack development, JavaScript, React, Node.js, databases and building useful projects.</p>
+      <div class="meta"><span>India</span><a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></div>
+    </div></section>
 
-    <section id="skills" class="section">
-      <div class="container">
-        <p class="eyebrow">MY SKILLS</p>
-        <h2>Technologies I work with</h2>
-        <div id="skillsGrid" class="skills-grid"></div>
-      </div>
-    </section>
+    <section id="skills" class="section"><div class="container">
+      <p class="eyebrow">MY SKILLS</p><h2>Technologies I work with</h2><div id="skillsGrid" class="skills-grid"></div>
+    </div></section>
 
-    <section id="projects" class="section alt">
-      <div class="container">
-        <p class="eyebrow">PROJECTS</p>
-        <h2>Selected work</h2>
-        <div id="projectsGrid" class="projects-grid"></div>
-      </div>
-    </section>
+    <section id="projects" class="section alt"><div class="container">
+      <p class="eyebrow">PROJECTS</p><h2>Selected work</h2><div id="projectsGrid" class="projects-grid"></div>
+    </div></section>
 
-    <section id="contact" class="section">
-      <div class="container contact-grid">
-        <div>
-          <p class="eyebrow">GET IN TOUCH</p>
-          <h2>Let's build something.</h2>
-          <p>Have a project, internship opportunity, or question? Send a message.</p>
-          <div class="socials">
-            <a id="githubLink" target="_blank" rel="noreferrer">GitHub</a>
-            <a id="linkedinLink" target="_blank" rel="noreferrer">LinkedIn</a>
-          </div>
-        </div>
-
-        <form id="contactForm" class="contact-form">
-          <label>Name<input name="name" required minlength="2" maxlength="80"></label>
-          <label>Email<input type="email" name="email" required maxlength="120"></label>
-          <label>Subject<input name="subject" required minlength="3" maxlength="150"></label>
-          <label>Message<textarea name="message" required minlength="10" maxlength="2000" rows="6"></textarea></label>
-          <button class="btn primary" type="submit">Send Message</button>
-          <p id="formStatus" class="form-status" role="status"></p>
-        </form>
+    <section id="contact" class="section"><div class="container contact-grid">
+      <div><p class="eyebrow">GET IN TOUCH</p><h2>Let's build something.</h2><p>Have a project, internship opportunity, or question? Send me a message.</p>
+        <div class="socials"><a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank" rel="noreferrer">LinkedIn</a></div>
       </div>
-    </section>
+      <form id="contactForm" class="contact-form">
+        <label>Name<input name="name" required minlength="2" maxlength="80"></label>
+        <label>Email<input type="email" name="email" required maxlength="120"></label>
+        <label>Subject<input name="subject" required minlength="3" maxlength="150"></label>
+        <label>Message<textarea name="message" required minlength="10" maxlength="2000" rows="6"></textarea></label>
+        <button class="btn primary" type="submit">Send Message</button><p id="formStatus" class="form-status" role="status"></p>
+      </form>
+    </div></section>
   </main>
 
-  <footer>
-    <div class="container footer-inner">
-      <span>© <span id="year"></span> <span id="footerName">Your Name</span></span>
-      <span>Built with HTML, CSS, JavaScript, Node.js & MongoDB.</span>
-    </div>
-  </footer>
-
-  <script src="/js/app.js"></script>
+  <footer><div class="container footer-inner"><span>© <span id="year"></span> Arpit Kumar</span><span>Built with HTML, CSS & JavaScript.</span></div></footer>
+  <script src="js/app.js"></script>
 </body>
 </html>
